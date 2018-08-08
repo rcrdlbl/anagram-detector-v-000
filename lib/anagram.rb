@@ -8,4 +8,4 @@ class Anangram
 
   def match(matches)
     split_word = @word.split("")
-    
+    matches.select {|match| match.split("").sort == split_word.sort}
