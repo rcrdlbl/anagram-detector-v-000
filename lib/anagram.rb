@@ -5,3 +5,7 @@ class Anangram
   def initialize(word)
     @word = word
   end
+
+  def match(matches)
+    split_word = @word.split("")
+    
